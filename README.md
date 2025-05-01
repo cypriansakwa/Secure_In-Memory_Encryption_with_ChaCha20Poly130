@@ -24,6 +24,12 @@ The plaintext is encrypted using the generated key and nonce. The resulting ciph
 
 ### Decrypt the Data  
 The ciphertext is decrypted using the same key and nonce. The authentication tag is verified to confirm data integrity and authenticity before recovering the original message.
+## Installation
+Clone the repository and navigate to the project directory:
+```sh
+clone git https://github.com/cypriansakwa/Secure_In-Memory_Encryption_with_ChaCha20Poly130.git
+cd Secure_In-Memory_Encryption_with_ChaCha20Poly130
+```
 ## 🧪 Example Output
 When you run the code, you should see output like:
 ``` text
