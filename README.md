@@ -13,6 +13,7 @@ Add these to your `Cargo.toml`:
 chacha20poly1305 = { version = "0.10", features = ["rand_core"] }
 rand = "0.8"
 hex = "0.4"
+```
 ## 🔧 How It Works
 
 ### Generate Key and Nonce  
@@ -40,4 +41,9 @@ Decrypted: Confidential data goes here.
 - 🔑 Manage keys using a **secure key management system (KMS)**.
 - 🚫 **Never reuse a nonce** with the same key.
 - 🧹 Securely **zeroize sensitive data** if needed.
+## 📚 References
+
+- [ChaCha20Poly1305 crate documentation](https://docs.rs/chacha20poly1305)
+- [AEAD encryption principles](https://en.wikipedia.org/wiki/Authenticated_encryption)
+- [RFC 8439: ChaCha20 and Poly1305 for IETF Protocols](https://datatracker.ietf.org/doc/html/rfc8439)
 
